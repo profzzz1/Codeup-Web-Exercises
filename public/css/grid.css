@@ -1,0 +1,63 @@
+/* Apply border-box model so we dont have to calculate padding percentages*/
+html {
+	box-sizing:border-box;
+}
+
+
+.container {
+	margin: 0 auto;
+	width:80%;
+	max-width: 1200px;
+	background-color:red;
+}
+
+.row{
+	width:100%;
+}
+
+.row:after {
+	content:"";
+	display: table;
+	clear:both;
+
+}
+
+.column {
+	float:left;
+	padding: 0px;
+	width:100px;
+	box-shadow: inset 0 0 0 1px black;
+
+}
+
+.column.one-half {
+	width:50%;
+	background-color:;
+}
+
+.column.one-third {
+	width:33.3%;
+	background-color:orange;
+}
+
+.column.one-fourth {
+	width:25%;
+	background-color:green;
+}
+
+.column.one-sixth {
+	width:16.666%;
+	background-color:yellow;
+}
+
+.column.one-eigth {
+	width:12.5%;
+	background-color:blue;
+}
+
+
+
+
+
+
+

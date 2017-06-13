@@ -1,0 +1,42 @@
+.box {
+border:1px solid black;
+height: 50px;
+width:50px;
+padding:20px;
+margin-top:10px;
+font-weight:bold;
+color:#fff;
+}
+
+#red {
+	background-color:red;
+}
+
+#orange {
+	margin-left: 0px;
+	background-color: orange ;
+}
+
+#yellow{
+	margin-left: 0px;
+	background-color: yellow;
+}
+
+:nth-child(2){
+	background: white;
+}
+
+#green{
+	margin-left: 0px;
+	background-color: green;
+}
+
+#blue{
+	margin-left: 0px;
+	background-color: blue;
+}
+
+#purple{
+	margin-left: 0px;
+	background-color: purple;
+}
