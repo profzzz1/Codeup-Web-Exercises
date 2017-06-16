@@ -1,6 +1,7 @@
 //Create a while loop that uses console.log() to create the output shown below.
 
-var x = 1;
+var i = 1;
+
 while (x < 65536) {
 
 x= x * 2;
@@ -25,3 +26,6 @@ while (allCones>0) {
 	if (allCones<=0) {
 		console.log("Yay! I sold them all!");
 }
+
+
+
