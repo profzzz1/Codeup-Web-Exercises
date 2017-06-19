@@ -1,0 +1,34 @@
+*Declare an array wth array literal notation
+	
+//Declare and Initialize
+
+	    var pies = ['apple', 'cherry', 'key lime'];
+
+//Seperate declaration and initialization
+	  	
+	  	var pies = []
+
+	  	pies[0]= 'apple';
+	  	pies[1]= 'cherry';
+	  	pies[2]= 'key lime';
+
+	  	console.log(pies);
+
+*Declaring an array with the array constructor
+
+//Declare and Initialize
+
+		var pies = new Array ('apple', 'cherry', 'key lime');
+
+// Seperate declartion and initialization
+
+		var pies = new Array();
+
+*Counting array items
+
+	console.log(pies.length);
+
+* Accessing arrat elements
+
+	
+

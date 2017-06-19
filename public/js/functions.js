@@ -5,10 +5,10 @@
 // When called, the function should return a message that says hello to the passed in name.
 
 
-// function sayHello(name) {
-//     return "Hello, " + name + "!";
-//     }
-// console.log(sayHello("Codeup"));
+function sayHello(name) {
+    return "Hello, " + name + "!";
+    }
+console.log(sayHello("Codeup"));
 
 //TODO:
 //  Call the function 'sayHello' passing the variable 'myNameIs' as a parameter.
@@ -17,9 +17,9 @@
 //
 
 
-// var myNameIs = "Memo";
-// var helloMessage = sayHello(myNameIs); 
-// console.log(helloMessage);
+var myNameIs = "Memo";
+var helloMessage = sayHello(myNameIs); 
+console.log(helloMessage);
 
 
 //TODO:
@@ -36,15 +36,15 @@
 // console.log *outside of the function* to check your work
 
 
-// var random = Math.floor((Math.random() * 100) + 1);
-// function isOdd(number) {
-//     if (random % 2 === 0) {
-//         return (random + " Your number is even!");
-//     } else {
-//         return (random + " Your number is odd!")
-//     }
-// }
-// console.log(isOdd(42));
+var random = Math.floor((Math.random() * 100) + 1);
+function isOdd(number) {
+    if (random % 2 === 0) {
+        return (random + " Your number is even!");
+    } else {
+        return (random + " Your number is odd!")
+    }
+}
+console.log(isOdd(42));
 
 
 //TODO: Create a function named 'calculateTip' to calculate a tip on a bill at a
@@ -56,13 +56,13 @@
 //  > calculateTip(0.20, 20) // returns 4
 
 
-// var tipPercent;
-// var amountTotal;
+var tipPercent;
+var amountTotal;
 
-// function calculateTip(tipPercent, amountTotal) {
-// return tipPercent * amountTotal
-// }
-//     console.log(calculateTip(0.20, 20));
+function calculateTip(tipPercent, amountTotal) {
+return tipPercent * amountTotal
+}
+    console.log(calculateTip(0.20, 20));
 
 
 //TODO: Use prompt and alert in combination with your calculateTip function to
@@ -70,19 +70,19 @@
 //  then display the dollar amount they should tip
 
 
-// var userPercent= prompt("How much would you like to tip?");
-// var userBill= prompt("What is your total?");
-// alert ("Your tip amount is " + calculateTip(userPercent, userBill));
+var userPercent= prompt("How much would you like to tip?");
+var userBill= prompt("What is your total?");
+alert ("Your tip amount is " + calculateTip(userPercent, userBill));
 
 
 //Write a function called `identity(input)` that takes in an argument called input and returns that input.
 
 
-// function identity(input) {
-// 	return input;
-// }
+function identity(input) {
+	return input;
+}
 
-// console.log(identity(6))
+console.log(identity(6))
 
 
 //Write a function called `getRandomNumber(min, max)` that returns a random number between min and max values sent to that function call.
